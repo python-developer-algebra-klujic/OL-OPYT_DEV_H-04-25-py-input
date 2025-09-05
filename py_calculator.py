@@ -25,3 +25,7 @@ b = float(input('Upisite drugi broj: '))
 # print('Kolicnik brojeva a', a, 'i b', b, 'je', a / b)
 # print('Potencija brojeva a', a, 'i b', b, 'je', a ** b)
 # print('Modulo brojeva a', a, 'i b', b, 'je', a % b)
+
+# a + b = rezultat
+# a - b = rezultat
+# ...
