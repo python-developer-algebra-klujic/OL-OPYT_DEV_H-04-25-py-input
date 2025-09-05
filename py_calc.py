@@ -14,3 +14,9 @@ NAPOMENA Za sada kod unosa neka kod prvog unosa drugi broj NE bude 0 (nula),
 jer nije dopušteno dijeliti s nulom. To svakako pokušajte napraviti, ali NE u prvom pokušaju.
 '''
 
+a = input('Upisite prvi broj: ')
+b = input('Upisite drugi broj: ')
+
+
+print('Vrijednost a:', a)
+print('Vrijednost b:', b)
