@@ -18,5 +18,12 @@ a = input('Upisite prvi broj: ')
 b = input('Upisite drugi broj: ')
 
 
-print('Vrijednost a:', a)
-print('Vrijednost b:', b)
+# print('Vrijednost a:', a)
+# print('Vrijednost b:', b)
+
+print('Zbroj brojeva a', a, 'i b', b, 'je', a + b)
+print('Razlika brojeva a', a, 'i b', b, 'je', a - b)
+print('Umnozak brojeva a', a, 'i b', b, 'je', a * b)
+print('Kolicnik brojeva a', a, 'i b', b, 'je', a / b)
+print('Potencija brojeva a', a, 'i b', b, 'je', a ** b)
+print('Modula brojeva a', a, 'i b', b, 'je', a % b)
