@@ -23,6 +23,11 @@ a = int(a)
 b = int(b)
 
 
+# Kraci oblik unosa teksta i konverzije u zeljeni tip podatka
+# a = float(input('Upisite prvi broj: '))
+# b = float(input('Upisite drugi broj: '))
+
+
 # print('Vrijednost a:', a)
 # print('Vrijednost b:', b)
 
