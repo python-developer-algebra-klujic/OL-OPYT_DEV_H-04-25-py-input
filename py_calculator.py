@@ -15,8 +15,8 @@ jer nije dopušteno dijeliti s nulom. To svakako pokušajte napraviti, ali NE u 
 '''
 
 # 1. korak - pohranjujemo vrijednosti od korisnika
-a = float(input('Upisite prvi broj: '))
-b = float(input('Upisite drugi broj: '))
+a = int(input('Upisite prvi broj: '))
+b = int(input('Upisite drugi broj: '))
 
 # 2. korak - ispisujemo vrijednosti
 # print('Zbroj brojeva a', a, 'i b', b, 'je', a + b)
@@ -29,3 +29,23 @@ b = float(input('Upisite drugi broj: '))
 # a + b = rezultat
 # a - b = rezultat
 # ...
+# zbroj = f'{a} + {b} = {a + b}'
+# print(zbroj)
+print(f'{a} + {b} = {a + b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {round(a / b, 2)}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
+print(f'{a} % {b} = {a % b}')
+
+print()
+print()
+
+# pitanje Andrija Peričić: a moze i ovako bez viticastih u drugom dijelu?
+print(f'{a} + {b} = ', a + b)
+print(f'{a} + {b} = ', a - b)
+print(f'{a} + {b} = ', a * b)
+print(f'{a} + {b} = ', round(a / b, 2))
+print(f'{a} + {b} = ', a ** b)
+print(f'{a} + {b} = ', a % b)
